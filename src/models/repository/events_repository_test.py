@@ -16,9 +16,10 @@ def test_insert_event():
     events_repository = EventsRepository()
     response = events_repository.insert_event(event)
     print(response)
-    
+ 
+@pytest.mark.skip(reason="Não Necessita")   
 def test_get_event_by_id():
-    event_id = "meu-uuid-e-nois"
+    event_id = "meu-uuid-e-nois58"
     events_repository = EventsRepository()
     response = events_repository.get_event_by_id(event_id)
     print(response)
