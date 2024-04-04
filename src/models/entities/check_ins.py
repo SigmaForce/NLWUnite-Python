@@ -1,5 +1,5 @@
 from src.models.settings.base import Base
-from sqlalchemy import Column, Integer, DateTime, ForeignKey
+from sqlalchemy import Column, Integer, DateTime, ForeignKey, String
 from sqlalchemy.sql import func
 
 class CheckIns(Base):
